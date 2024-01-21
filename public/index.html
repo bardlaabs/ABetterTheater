@@ -86,109 +86,91 @@
           name: "Plex", 
           url: "https://app.plex.tv", 
           image: "plex", 
-          geo: false 
         },
         { 
           name: "Channels DVR", 
           url: "https://my.channelsdev.net", 
           image: "channels", 
-          geo: false 
         },
         {
           name: "Netflix",
           url: "https://netflix.com",
           image: "netflix",
-          geo: false,
         },
         {
           name: "AppleTV +",
           url: "https://tv.apple.com",
           image: "appletvplus",
-          geo: false,
         },
         {
           name: "YouTube TV",
           URL: "https://tv.youtube.com",
           image: "youtuubetv",
-          geo: false,
         },
         {
           name: "Max",
           URL: "https://max.com",
           image: "max",
-          geo: false,
         },
         {
           name: "Prime",
           url: "https://www.primevideo.com",
           image: "prime",
-          geo: false,
         },
         {
           name: "Disney+",
           url: "https://www.disneyplus.com",
           image: "disneyplus",
-          geo: false,
         },
         {
           name: "Hulu",
           url: "https://hulu.com",
           image: "hulu",
-          geo: false,
         },
         {
           name: "Peacock",
           URL: "https://www.peacocktv.com/watch/home",
           image: "peacock",
-          geo: false,
         },
         {
           name: "Paramount+",
           URL: "https://www.paramountplus.com/",
           image: "paramount",
-          geo: false,
         },        
         {
           name: "YouTube",
           url: "https://www.youtube.com",
           image: "youtube",
-          geo: false,
         },
         {
           name: "YouTube Music",
           url: "https://music.youtube.com",
           image: "youtubemusic",
-          geo: false,
         },
         {
           name: "Waze",
           URL: "https://waze.com/livemap",
           image: "waze",
-          geo: false,
         },
         {
           name: "ABetterRoutePlanner",
           URL: "https://new.abetterrouteplanner.com",
           image: "abrp",
-          geo: false,
         },
         {
           name: "Plugshare",
           URL: "https://www.plugshare.com/",
           image: "plugshare",
-          geo: false,
         },
         {
           name: "Tesla",
           URL: "https://tesla.com/teslaaccount",
           image: "tesla",
-          geo: false,
         },
         {
           name: "Google Calendar",
           URL: "https://calendar.google.com",
           image: "googlecal",
-          geo: false,
         }        
       ];
 
@@ -205,7 +187,7 @@
           .getElementById("services")
           .insertAdjacentHTML(
             "afterbegin",
-            `<button onClick="loading('${obj["url"]}', ${obj["geo"]})"><img src="img/${obj["image"]}.svg" alt="${obj["image"]}" width="100%" height="100%" class="logo" /></button>`
+            `<button onClick="loading('${obj["url"]}')"><img src="img/${obj["image"]}.svg" alt="${obj["image"]}" width="100%" height="100%" class="logo" /></button>`
           );
       }
     </script>
