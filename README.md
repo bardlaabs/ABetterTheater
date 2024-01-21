@@ -1,7 +1,5 @@
 # ABetterTheater
 
-## **https://ABetterTheater.nz/**
-
 NZ version of "A Better Theater" which you can view over at https://ABetterTheater.nz/
 This site should include all NZ steaming services.
 This site also gives you the ability to hide streaming services you are not subscribed to so you don't have them cluttering up your dashboard (edit button bottom right) 
