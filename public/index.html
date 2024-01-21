@@ -153,9 +153,9 @@
           image: "waze.svg",
         },
         {
-          name: "ABetterRoutePlanner",
+          name: "A Better Route Planner",
           URL: "https://new.abetterrouteplanner.com",
-          image: "abrp.webp",
+          image: "abrp.png",
         },
         {
           name: "Plugshare",
@@ -187,7 +187,7 @@
           .getElementById("services")
           .insertAdjacentHTML(
             "afterbegin",
-            `<button onClick="loading('${obj["url"]}')"><img src="img/${obj["image"]}" alt="${obj["image"]}" width="100%" height="100%" class="logo" title="${obj["name"]}" />${obj["name"]}</button>`
+            `<button onClick="loading('${obj["url"]}')"><img src="img/${obj["image"]}" alt="${obj["image"]}" width="100%" height="100%" class="logo" title="${obj["name"]}" /></button>`
           );
       }
     </script>
