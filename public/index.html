@@ -2,49 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>ABetterTheater.nz - Full Screen Apps</title>
+    <title>Tesla Homepage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="A Better Theater for your Tesla!" />
-    <meta
-      name="keywords"
-      content="ABetterTheater, New Zealand, A Better Theater, Theatre"
-    />
     <meta name="theme-color" content="#262626" />
     <meta property="og:type" content="website" />
     <meta
       property="og:site_name"
-      content="ABetterTheater.nz - Full Screen Apps"
+      content="Tesla Homepage"
     />
-    <meta property="og:title" content="ABetterTheater.nz - Full Screen Apps" />
+    <meta property="og:title" content="Tesla Homepage" />
     <meta
       property="og:description"
       content="A Better Theater for your Tesla!"
     />
-    <meta property="og:url" content="https://abettertheater.nz/" />
-    <meta property="og:image" content="https://abettertheater.nz/img/logo-200.png" />
+    <meta property="og:url" content="https://telsa.laabs.biz/" />
+    <meta property="og:image" content="https://tesla.laabs.biz/img/logo-200.png" />
     <link rel="shortcut icon" href="img/favicon.ico" />
-    <link rel="canonical" href="https://abettertheater.nz/" />
-    <link rel="stylesheet" href="styles.css?r=12" />
+    <link rel="canonical" href="https://tesla.laabs.biz/" />
+    <link rel="stylesheet" href="styles.css?r=1" />
+
     <style>
       body {
         font-family: Arial, Helvetica, sans-serif;
       }
     </style>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-ZM4FBPXRCH"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-ZM4FBPXRCH");
-    </script>
   </head>
+
   <body>
     <p id="teslaBrowser" style="text-align: center; display: none">
       This website is made for your Tesla browser. Open it on there to get the
@@ -72,7 +55,6 @@
 
     <div class="footer">
       <div class="btnGroup">
-        <button onClick="showDialog('aboutModal')">About</button>
         <button onClick="openEditModal();">Edit</button>
       </div>
 
@@ -89,61 +71,13 @@
 
     <div class="modal" id="editModal">
       <p>
-        Select what streaming servies you would like to be hidden from your
+        Select the services you would like to be hidden from your
         dashboard
       </p>
       <br />
       <div id="serviceItems"></div>
       <br />
       <button class="btnDone" onClick="window.location.reload();">Done</button>
-    </div>
-
-    <div class="modal" id="geoModal" onClick="closeDialog('geoModal')">
-      <h1>Oops!</h1>
-      <h3>
-        This service won't work unless you are connected to WiFi. Please connect
-        to your phone's hotspot and try again.
-      </h3>
-      <br />
-      <br />
-      <br />
-      <p>
-        <b>Why???</b><br />We have detected you are using your Tesla's LTE
-        connection. Your Tesla's data connection is actually coming from
-        Australia and this service you are trying to access is geo-locked to New
-        Zealand. Because of this even though you are physically in New Zealand,
-        the website you are trying to access thinks you are in Australia and
-        won't let you stream. To get around this you will need to connect your
-        car to WiFi and then this service will work. Try tethering to your
-        phone's hotspot.
-      </p>
-      <br />
-    </div>
-
-    <div class="modal" id="aboutModal" onClick="closeDialog('aboutModal')">
-      <h1>About</h1>
-      <h3>
-        Introducing ABetterTheater: Your gateway to an enhanced Tesla media
-        experience, providing seamless access to all your favorite streaming
-        services. With a focus on simplifying the process of accessing
-        fullscreen media, ABetterTheater empowers you through an elegantly
-        designed "Go Fullscreen" button, ensuring quick engagement and an
-        immersive entertainment experience during your parked moments.
-      </h3>
-      <p>
-        Found an issue or bug?
-        <a href="https://github.com/jLynx/ABetterTheater/issues"
-          >Tap here to report an issue</a
-        >
-      </p>
-      <p>
-        This wesbite is fully open source:
-        <a href="https://github.com/jLynx/ABetterTheater"
-          >https://github.com/jLynx/ABetterTheater</a
-        >.
-      </p>
-      <p>Made with ❤️ by <a href="https://jlynx.net">jLynx.net</a>.</p>
-      <br />
     </div>
 
     <script>
@@ -265,6 +199,6 @@
       }
     </script>
 
-    <script type="text/javascript" src="js.js?r=11"></script>
+    <script type="text/javascript" src="js.js?r=1"></script>
   </body>
 </html>
