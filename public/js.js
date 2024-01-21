@@ -31,13 +31,9 @@ function showOverlay() {
   node.setSelectionRange(200, 200);
 }
 
-function loading(url, geo) {
-  if (geo && country !== "NZ") {
-    showDialog("geoModal");
-  } else {
-    showDialog("shadow");
-    location.href = url;
-  }
+function loading(url) {
+  showDialog("shadow");
+  location.href = url;
 }
 
 function openEditModal() {
