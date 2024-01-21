@@ -1,4 +1,3 @@
-var country = "Loading";
 if (
   document.referrer.match(/^https:\/\/www\.youtube\.com/) ||
   window.innerWidth === 1111
@@ -11,7 +10,7 @@ if (
 if (!navigator.userAgent.includes("Tesla")) {
   show("teslaBrowser");
 }
-getIPDetails();
+
 
 const node = document.getElementById("path");
 node.addEventListener("keyup", function (event) {
@@ -76,17 +75,6 @@ function hideService(service) {
   localStorage.setItem("hidden", JSON.stringify(hiddenItems));
 
   console.log(hiddenItems);
-}
-
-function getIPDetails() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function () {
-    if (this.readyState == 4 && this.status == 200) {
-      country = JSON.parse(xhttp.responseText).country;
-    }
-  };
-  xhttp.open("GET", "/api/country", true);
-  xhttp.send();
 }
 
 const showDialog = (element) => {
