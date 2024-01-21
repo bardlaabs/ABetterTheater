@@ -82,103 +82,114 @@
 
     <script>
       const baseServices = [
-        { url: "https://app.plex.tv", image: "plex", name: "Plex", geo: false },
-        {
-          url: "https://www.hulu.com",
-          image: "hulu",
-          name: "Hulu",
-          geo: false,
+        { 
+          name: "Plex", 
+          url: "https://app.plex.tv", 
+          image: "plex", 
+          geo: false 
+        },
+        { 
+          name: "Channels DVR", 
+          url: "https://my.channelsdev.net", 
+          image: "channels", 
+          geo: false 
         },
         {
-          url: "https://www.primevideo.com",
-          image: "prime",
-          name: "Prime Video",
-          geo: false,
-        },
-        {
+          name: "Netflix",
           url: "https://netflix.com",
           image: "netflix",
-          name: "Netflix",
           geo: false,
         },
         {
+          name: "AppleTV +",
+          url: "https://tv.apple.com",
+          image: "appletvplus",
+          geo: false,
+        },
+        {
+          name: "YouTube TV",
+          URL: "https://tv.youtube.com",
+          image: "youtuubetv",
+          geo: false,
+        },
+        {
+          name: "Max",
+          URL: "https://max.com",
+          image: "max",
+          geo: false,
+        },
+        {
+          name: "Prime",
+          url: "https://www.primevideo.com",
+          image: "prime",
+          geo: false,
+        },
+        {
+          name: "Disney+",
           url: "https://www.disneyplus.com",
           image: "disneyplus",
-          name: "Disney Plus",
           geo: false,
         },
         {
+          name: "Hulu",
+          url: "https://hulu.com",
+          image: "hulu",
+          geo: false,
+        },
+        {
+          name: "Peacock",
+          URL: "https://www.peacocktv.com/watch/home",
+          image: "peacock",
+          geo: false,
+        },
+        {
+          name: "Paramount+",
+          URL: "https://www.paramountplus.com/",
+          image: "paramount",
+          geo: false,
+        },        
+        {
+          name: "YouTube",
           url: "https://www.youtube.com",
           image: "youtube",
-          name: "YouTube",
           geo: false,
         },
         {
-          url: "https://www.twitch.tv",
-          image: "twitch",
-          name: "Twitch",
-          geo: false,
-        },
-        {
-          url: "https://www.neontv.co.nz",
-          image: "neon",
-          name: "NEON",
-          geo: false,
-        },
-        {
-          url: "https://www.tvnz.co.nz",
-          image: "tvnz",
-          name: "TV NZ",
-          geo: true,
-        },
-        {
-          url: "https://www.sparksport.co.nz",
-          image: "sparksport",
-          name: "Spark Sport",
-          geo: true,
-        },
-        {
-          url: "https://www.skygo.co.nz",
-          image: "skygo",
-          name: "Sky Go",
-          geo: true,
-        },
-        {
-          url: "https://www.skysportnow.co.nz",
-          image: "skysportnow",
-          name: "Sky Sport Now",
-          geo: true,
-        },
-        {
-          url: "https://www.threenow.co.nz",
-          image: "threenow",
-          name: "Three now",
-          geo: true,
-        },
-        {
-          url: "https://www.crunchyroll.com",
-          image: "crunchyroll",
-          name: "Crunchyroll",
-          geo: false,
-        },
-        {
-          url: "https://www.funimation.com",
-          image: "funimation",
-          name: "Funimation",
-          geo: false,
-        },
-        {
+          name: "YouTube Music",
           url: "https://music.youtube.com",
           image: "youtubemusic",
-          name: "YouTube Music",
           geo: false,
         },
         {
-          url: "https://tv.apple.com/",
-          image: "appletvplus",
-          name: "Apple TV +",
+          name: "Waze",
+          URL: "https://waze.com/livemap",
+          image: "waze",
           geo: false,
         },
+        {
+          name: "ABetterRoutePlanner",
+          URL: "https://new.abetterrouteplanner.com",
+          image: "abrp",
+          geo: false,
+        },
+        {
+          name: "Plugshare",
+          URL: "https://www.plugshare.com/",
+          image: "plugshare",
+          geo: false,
+        },
+        {
+          name: "Tesla",
+          URL: "https://tesla.com/teslaaccount",
+          image: "tesla",
+          geo: false,
+        },
+        {
+          name: "Google Calendar",
+          URL: "https://calendar.google.com",
+          image: "googlecal",
+          geo: false,
+        }        
       ];
 
       var services = baseServices;
