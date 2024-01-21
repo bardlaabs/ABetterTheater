@@ -1,3 +1,2 @@
-Sitemap: https://abettertheater.nz/sitemap.xml
-User-Agent: *
-Allow: /
+User-agent: * 
+Disallow: /
